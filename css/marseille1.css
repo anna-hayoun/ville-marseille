@@ -1,0 +1,206 @@
+@font-face 
+{
+    font-family: 'geliat';
+    src: url(../images/Geliat.otf);
+}
+
+@font-face 
+{
+    font-family: 'caviar';
+    src: url(../images/CaviarDreams.ttf);
+}
+
+
+p
+{
+    font-family: 'geliat', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2
+{
+    font-family: 'caviar', Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-align: center;
+    text-decoration: overline;
+}
+
+h3
+{
+    font-family: 'caviar', Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    margin-left: 2%;
+    text-decoration: underline;
+}
+
+h4
+{
+    font-family: 'geliat', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* images */
+
+#img1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+img
+{
+    border: 1px rgba(0, 0, 0, 0) solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#img2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img22
+{
+    margin-top: 10%;
+}
+
+/* Textes */
+
+#text1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text11
+{
+    margin-top: 7%;
+}
+
+#text2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.text2:nth-child(2)
+{
+    margin-top: 2%;
+    order: 1;
+}
+
+.text2:nth-child(1)
+{
+    order: 2;
+    margin-right: 2%;
+}
+
+#text3
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text31
+{
+    margin-top: 5%;
+}
+
+#text4
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text41
+{
+    margin-top: 7%;
+}
+
+#text5
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text5:nth-child(1)
+{
+    order: 2;
+    margin-right: 5%;
+}
+
+.text5:nth-child(2)
+{
+    order: 1;
+}
+
+#text6
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text61
+{
+    margin-top: 8%;
+}
+
+#text7
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text71
+{
+    margin-top: 5%;
+}
+
+#text8
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text81
+{
+    margin-top: 5%;
+}
+
+#text9
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text91
+{
+    margin-top: 6%;
+}
+
+.cult
+{
+    margin-top: 5%;
+}
