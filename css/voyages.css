@@ -1,0 +1,98 @@
+@font-face 
+{
+    font-family: 'podvodka';
+    src: url(../fonts/Podkova.ttf);
+}
+
+@font-face 
+{
+    font-family: 'caviar';
+    src: url(../fonts/CaviarDreams.ttf);
+}
+
+@font-face
+{
+    font-family: 'hind';
+    src:url(../fonts/Hind.ttf)
+}
+
+main
+{
+    background-image: url(../images/logoom.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p
+{
+    font-family: 'hind', Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+h2 
+{
+    font-family: 'caviar', Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-align: center;
+    background-image: url(../images/fondss.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3%;
+}
+
+
+h3
+{
+    font-family: 'podvodka', Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    margin-left: 2%;
+    text-decoration: underline;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#sortir
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+section
+{
+    width: 45%;
+    margin: 2%;
+    margin-top: 5%;
+}
+
+.inf
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid rgb(199, 199, 248);
+    box-shadow: 10px 10px 2px 1px rgba(199, 199, 248, 0.603);
+    padding: 3%;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.doc
+{
+    margin-top: 10%;
+}
+
+img
+{
+    border: 1px rgba(0, 0, 0, 0) solid;
+    border-radius: 20px;
+}
