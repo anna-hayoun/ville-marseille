@@ -11,6 +11,7 @@
 }
 
 
+
 p
 {
     font-family: 'geliat', Arial, Helvetica, sans-serif;
@@ -46,7 +47,7 @@ h4
     margin-bottom: 5%;
 }
 
-/* images */
+/*** images ***/
 
 #img1
 {
@@ -76,7 +77,7 @@ img
     margin-top: 10%;
 }
 
-/* Textes */
+/*** Textes ***/
 
 #text1
 {
