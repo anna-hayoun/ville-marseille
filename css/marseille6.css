@@ -1,0 +1,82 @@
+@font-face {
+    font-family:"Ubuntu" ;
+    src: url(/polices/Ubuntu-Bold.ttf);
+
+}
+
+.corps {
+    font-family: "Ubuntu";
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.form_titre { text-align: center;
+    color: rgb(7, 4, 4);
+}
+
+form {
+    margin-top: 10%;
+    background-color: rgb(156, 205, 248);
+    border-radius: 30px;
+    width: 50%;
+}
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    
+}
+.form_gauche, .form_droite {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+}
+
+.form_gauche label, .form_droite label {
+    margin-right: -11%;
+}
+
+.form_objet label {
+    margin-right: 1%;
+}
+.form_objet {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    justify-content: flex-start;  
+    
+}
+
+
+.form_titre2 {
+    text-align: center;
+}
+.form_msg  {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin: 0;
+   
+}
+.form_msg label {
+    text-align: center;
+}
+textarea {
+    margin: 1% 2%;
+    max-width: 96%;
+    max-height: 250px;
+    line-height: 3;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    
+}
+.form_bouton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}

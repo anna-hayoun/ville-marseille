@@ -1,0 +1,88 @@
+@font-face 
+{
+    font-family: 'geliat';
+    src: url(images/Geliat.otf);
+}
+html {
+    font-family: 'geliat';
+}
+
+.parcs_liste1 li {
+    margin: 2%;
+    text-align: center;
+  
+}
+.parcs_liste2 li {
+    margin: 2%;
+   text-align: center;
+}
+.parcs_s2 ul {
+    list-style: none;
+}
+.parcs_s1 ul {
+    list-style: none;
+}
+.parcs_titre { 
+    margin:  5% 0%;
+    text-align: center;
+}
+
+.parcs_s1 img {
+    margin-left: 35%;
+    border-radius: 25% 15%;
+}
+.parcs_s2 img {
+    margin-right: 10%;
+    border-radius: 25% 15%;
+}
+
+.parcs_liste1 img {
+    text-align: center;
+}
+
+.parcs_s1 img:hover {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.parcs_s2  img:hover {
+	opacity: .5;
+}
+
+.parcs_s1  img:hover {
+	opacity: .5;
+}
+
+.parcs_s1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.parc_s1 {
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    margin: auto;
+    width: 45%;
+ 
+ 
+}
+
+.parc_s2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: medium;
+    margin: auto; 
+}
+
+.parc_article_s1 p{
+text-align: center;
+width: 80%;
+margin: 5% 10% 
+}
+.parc_article_s2 p{
+    text-align: center;
+    width: 80%;
+    margin: 5% 10%
+    }
