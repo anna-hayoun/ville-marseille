@@ -1,7 +1,11 @@
-@font-face {
-    font-family:"Ubuntu" ;
-    src: url(/polices/Ubuntu-Bold.ttf);
+@font-face 
+{
+    font-family: 'geliat';
+    src: url(../fonts/Geliat.otf);
+}
 
+* {
+    font-family: 'geliat';
 }
 
 .corps {
@@ -17,6 +21,7 @@
 
 form {
     margin-top: 10%;
+    margin-bottom:10% ;
     background-color: rgb(156, 205, 248);
     border-radius: 30px;
     width: 50%;

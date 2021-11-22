@@ -1,7 +1,7 @@
 @font-face 
 {
     font-family: 'geliat';
-    src: url(images/Geliat.otf);
+    src: url(../fonts/Geliat.otf);
 }
 html {
     font-family: 'geliat';
